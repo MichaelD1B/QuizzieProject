@@ -17,19 +17,19 @@
             <a href="/pages/quiz1.html" class="box">
                 <div class="inner-box">
                     <h2>Quiz 1</h2>
-                    <p>0/15</p>
+                    <p id="quiz1-score" class="score-display"></p>
                 </div>
             </a>
             <a href="/pages/quiz2.html" class="box">
                 <div class="inner-box">
                     <h2>Quiz 2</h2>
-                    <p>0/15</p>
+                    <p id="quiz2-score" class="score-display"></p>
                 </div>
             </a>
             <a href="/pages/quiz3.html" class="box">
                 <div class="inner-box">
                     <h2>Quiz 3</h2>
-                    <p>0/15</p>
+                    <p id="quiz3-score" class="score-display"></p>
                 </div>
             </a>
         </div>
@@ -38,5 +38,22 @@
     <footer>
         <p>&copy; 2025 Quizzie</p>
     </footer>
+    <script>
+        // Retrieve and display scores for all quizzes
+        const quiz1Score = localStorage.getItem("quiz1Score");
+        const quiz2Score = localStorage.getItem("quiz2Score");
+        const quiz3Score = localStorage.getItem("quiz3Score");
+
+        // Display the scores if they exist
+        if (quiz1Score !== null) {
+            document.getElementById("quiz1-score").textContent = `Score: ${quiz1Score}/3`;
+        }
+        if (quiz2Score !== null) {
+            document.getElementById("quiz2-score").textContent = `Score: ${quiz2Score}/3`;
+        }
+        if (quiz3Score !== null) {
+            document.getElementById("quiz3-score").textContent = `Score: ${quiz3Score}/3`;
+        }
+    </script>
 </body>
 </html>

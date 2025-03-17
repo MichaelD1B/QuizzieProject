@@ -63,6 +63,13 @@ header {
     
 }
 
+.score-display {
+    font-size: 14px;
+    color: #254811;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #254811;
     color: white;

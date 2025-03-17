@@ -10,5 +10,46 @@
     <header>
         <h1>Leeftstijl en Gezondheid</h1>
     </header>
+
+    <main>
+        <div class="quiz-container">
+            <div id="question-1" class="question">
+                <h2>Question 1</h2>
+                <form>
+                    <label><input type="radio" name="q1" value="a"> Option A</label>
+                    <label><input type="radio" name="q1" value="b"> Option B</label>
+                    <label><input type="radio" name="q1" value="c"> Option C</label>
+                </form>
+            </div>
+            <div id="question-2" class="question" style="display: none;">
+                <h2>Question 2</h2>
+                <form>
+                    <label><input type="radio" name="q2" value="a"> Option A</label>
+                    <label><input type="radio" name="q2" value="b"> Option B</label>
+                    <label><input type="radio" name="q2" value="c"> Option C</label>
+                </form>
+            </div>
+            <div id="question-3" class="question" style="display: none;">
+                <h2>Question 3</h2>
+                <form>
+                    <label><input type="radio" name="q3" value="a"> Option A</label>
+                    <label><input type="radio" name="q3" value="b"> Option B</label>
+                    <label><input type="radio" name="q3" value="c"> Option C</label>
+                </form>
+            </div>
+
+            <div class="navigation-buttons">
+                <button id="prev" onclick="navigate('prev')" disabled>Previous</button>
+                <button id="finish" onclick="submitQuiz('quiz2')">Finish</button>
+                <button id="next" onclick="navigate('next')">Next</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Quizzie</p>
+    </footer>
+
+    <script src="/scripts/quiz.js"></script>
 </body>
 </html>
