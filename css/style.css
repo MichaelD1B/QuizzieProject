@@ -9,10 +9,12 @@ body {
     padding: 0;
     text-align: center;
     background-color: #9BCD89;
+    overflow: hidden;
 }
 
 header {
     background-color: #4B894B;
+    font-size: 2rem;
     color: white;
     padding: 80px;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
@@ -43,7 +45,7 @@ header {
 }
 
 .box:hover {
-    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    transform: scale(1.01); /* Slightly enlarge the box on hover */
 }
 
 .inner-box {

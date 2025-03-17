@@ -1,0 +1,30 @@
+:root {
+    --text-shadow-color: rgba(142, 248, 113, 0.5); /* Change this to your desired shadow color */
+    --cartoon-shadow-color: rgba(0, 0, 0, 0.5); /* Solid, cartoonish shadow color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #9BCD89;
+    overflow: hidden;
+}
+
+header {
+    background-color: #4B894B;
+    color: white;
+    padding: 80px;
+    text-shadow: -2px 2px 0px var(--text-shadow-color);
+}
+
+footer {
+    background-color: #254811;
+    color: white;
+    padding: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-shadow: -2px 2px 0px var(--text-shadow-color);
+}
