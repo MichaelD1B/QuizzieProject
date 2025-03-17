@@ -1,13 +1,13 @@
 :root {
     --text-shadow-color: rgba(142, 248, 113, 0.5); /* Change this to your desired shadow color */
-    --cartoon-shadow-color: rgba(0, 0, 0, 0.5); /* Solid, cartoonish shadow color */
+    --cartoon-shadow-color: rgba(37, 72, 17, 1); /* Solid, cartoonish shadow color */
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     background-color: #9BCD89;
     overflow: hidden;
 }
@@ -15,8 +15,9 @@ body {
 header {
     background-color: #4B894B;
     color: white;
-    padding: 80px;
+    padding: 0.1px 0.1px 0.1px 10px;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
+    box-shadow: 0px 7px 0px var(--cartoon-shadow-color);
 }
 
 footer {
