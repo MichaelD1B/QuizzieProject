@@ -14,22 +14,32 @@
 
     <main>
         <div class="container">
-            <a href="/pages/quiz1.html" class="box">
-                <div class="inner-box">
-                    <h2>Quiz 1</h2>
-                    <p id="quiz1-score" class="score-display"></p>
-                </div>
-            </a>
-            <a href="/pages/quiz2.html" class="box">
-                <div class="inner-box">
-                    <h2>Quiz 2</h2>
-                    <p id="quiz2-score" class="score-display"></p>
-                </div>
-            </a>
-            <a href="/pages/quiz3.html" class="box">
-                <div class="inner-box">
-                    <h2>Quiz 3</h2>
-                    <p id="quiz3-score" class="score-display"></p>
+            <div class="row">
+                <a href="/pages/quiz1.html" class="box">
+                    <div class="inner-box">
+                        <h2>Quiz 1</h2>
+                        <p id="quiz1-score" class="score-display"></p>
+                    </div>
+                </a>
+                <a href="/pages/quiz2.html" class="box">
+                    <div class="inner-box">
+                        <h2>Quiz 2</h2>
+                        <p id="quiz2-score" class="score-display"></p>
+                    </div>
+                </a>
+                <a href="/pages/quiz3.html" class="box">
+                    <div class="inner-box">
+                        <h2>Quiz 3</h2>
+                        <p id="quiz3-score" class="score-display"></p>
+                    </div>
+                </a>
+            </div>
+     
+            <a href="/pages/informatie.html" class="box4">
+                <div class="inner-box4">
+                    <h2>Informatie</h2>
+                     
+        
                 </div>
             </a>
         </div>
@@ -43,6 +53,7 @@
         const quiz1Score = localStorage.getItem("quiz1Score");
         const quiz2Score = localStorage.getItem("quiz2Score");
         const quiz3Score = localStorage.getItem("quiz3Score");
+        const quiz4Score = localStorage.getItem("quiz4Score"); // Added for quiz4
 
         // Display the scores if they exist
         if (quiz1Score !== null) {
@@ -53,6 +64,9 @@
         }
         if (quiz3Score !== null) {
             document.getElementById("quiz3-score").textContent = `Score: ${quiz3Score}/3`;
+        }
+        if (quiz4Score !== null) {
+            document.getElementById("quiz4-score").textContent = `Score: ${quiz4Score}/3`; // Added for quiz4
         }
     </script>
 </body>
