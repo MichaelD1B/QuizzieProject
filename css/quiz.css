@@ -23,6 +23,8 @@ header {
     position: relative;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 190px;
+    height: 375px;
     padding: 20px;
     background-color: #4B894B;
     border-radius: 10px;
@@ -31,8 +33,10 @@ header {
     text-shadow: -2px 2px 0px var(--text-shadow-color);
 }
 
+
 .question {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .navigation-buttons {

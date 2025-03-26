@@ -53,21 +53,19 @@
         const quiz1Score = localStorage.getItem("quiz1Score");
         const quiz2Score = localStorage.getItem("quiz2Score");
         const quiz3Score = localStorage.getItem("quiz3Score");
-        const quiz4Score = localStorage.getItem("quiz4Score"); // Added for quiz4
+ 
 
         // Display the scores if they exist
         if (quiz1Score !== null) {
-            document.getElementById("quiz1-score").textContent = `Score: ${quiz1Score}/3`;
+            document.getElementById("quiz1-score").textContent = `Score: ${quiz1Score}/10`;
         }
         if (quiz2Score !== null) {
-            document.getElementById("quiz2-score").textContent = `Score: ${quiz2Score}/3`;
+            document.getElementById("quiz2-score").textContent = `Score: ${quiz2Score}/10`;
         }
         if (quiz3Score !== null) {
-            document.getElementById("quiz3-score").textContent = `Score: ${quiz3Score}/3`;
+            document.getElementById("quiz3-score").textContent = `Score: ${quiz3Score}/10`;
         }
-        if (quiz4Score !== null) {
-            document.getElementById("quiz4-score").textContent = `Score: ${quiz4Score}/3`; // Added for quiz4
-        }
+        
     </script>
 </body>
 </html>
