@@ -22,7 +22,6 @@ function navigate(direction) {
         document.getElementById('finish').style.display = 'none';
     }
 }
-
 function submitQuiz(quizName) {
     let score = 0;
 
@@ -37,22 +36,22 @@ function submitQuiz(quizName) {
     const q9Answer = document.querySelector('input[name="q9"]:checked');
     const q10Answer = document.querySelector('input[name="q10"]:checked');
 
-    if (q1Answer && q1Answer.value === "b") {
+    if (q1Answer && q1Answer.value === "d") {
         score++;
     }
-    if (q2Answer && q2Answer.value === "c") {
+    if (q2Answer && q2Answer.value === "b") {
         score++;
     }
-    if (q3Answer && q3Answer.value === "c") {
+    if (q3Answer && q3Answer.value === "b") {
         score++;
     }
-    if (q4Answer && q4Answer.value === "a") {
+    if (q4Answer && q4Answer.value === "b") {
         score++;
     }
-    if (q5Answer && q5Answer.value === "b") {
+    if (q5Answer && q5Answer.value === "a") {
         score++;
     }
-    if (q6Answer && q6Answer.value === "c") {
+    if (q6Answer && q6Answer.value === "b") {
         score++;
     }
     if (q7Answer && q7Answer.value === "b") {
@@ -61,7 +60,7 @@ function submitQuiz(quizName) {
     if (q8Answer && q8Answer.value === "b") {
         score++;
     }
-    if (q9Answer && q9Answer.value === "c") {
+    if (q9Answer && q9Answer.value === "b") {
         score++;
     }
     if (q10Answer && q10Answer.value === "b") {

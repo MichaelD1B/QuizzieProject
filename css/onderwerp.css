@@ -50,6 +50,7 @@ header {
     box-shadow: -7px 7px 0px var(--cartoon-shadow-color);
     text-decoration: none; /* Remove underline from the link */
     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    margin-top: -125px;
 }
 
 
@@ -83,6 +84,7 @@ footer {
     padding: 0.1px 0.1px 0.1px 10px;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
  font-size: 45px;
+ margin-top: 3px;
 
 }
 
