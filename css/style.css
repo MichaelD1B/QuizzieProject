@@ -48,6 +48,7 @@ header {
     box-shadow: -7px 7px 0px var(--cartoon-shadow-color);
     text-decoration: none; /* Remove underline from the link */
     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    margin-top: -50px;
 }
 
 .box:hover {
