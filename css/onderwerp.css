@@ -14,11 +14,11 @@ body {
 
 header {
     background-color: #4B894B;
-    font-size: 1.5rem;
     color: white;
-    padding: 80px;
+    padding: 0.1px 0.1px 0.1px 10px;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
     box-shadow: 0px 7px 0px var(--cartoon-shadow-color);
+
 }
 .container {
     display: flex;
@@ -34,8 +34,9 @@ header {
 }
 
 .box {
-    width: 300px;
-    height: 230px;
+
+    width: 1300px;
+    height: 730px;
     background-color: #4B894B;
     color: white;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
@@ -45,22 +46,18 @@ header {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+    margin-top: -100px;
     box-shadow: -7px 7px 0px var(--cartoon-shadow-color);
     text-decoration: none; /* Remove underline from the link */
     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
-    margin-top: -50px;
+    margin-top: -125px;
 }
 
-.box:hover {
-    transform: scale(1.01); /* Slightly enlarge the box on hover */
-}
 
-.box4:hover {
-    transform: scale(1.01); /* Slightly enlarge the box on hover */
-}
+
 .inner-box {
-    width: 270px;
-    height: 200px;
+    width: 1270px;
+    height: 695px;
     background-color: #9BCD89;
     border-radius: 8px;
     display: flex;
@@ -71,12 +68,6 @@ header {
     font-weight: normal;
 }
 
-.score-display {
-    font-size: 14px;
-    color: #254811;
-    margin-top: 10px;
-    font-weight: bold;
-}
 
 footer {
     background-color: #254811;
@@ -88,35 +79,21 @@ footer {
     text-shadow: -2px 2px 0px var(--text-shadow-color);
 }
 
-.box4 {
-    width: 500px;
-    height: 130px;
-    background-color: #4B894B;
+.onderwerp{
     color: white;
+    padding: 0.1px 0.1px 0.1px 10px;
     text-shadow: -2px 2px 0px var(--text-shadow-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: -7px 7px 0px var(--cartoon-shadow-color);
-    text-decoration: none; /* Remove underline from the link */
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
-    margin-top: 55px;
+ font-size: 45px;
+ margin-top: 3px;
+
 }
 
-
-.inner-box4 {
-    width: 450px;
-    height: 100px;
-    background-color: #9BCD89;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: normal;
+.terug{
+    color: white;
+    padding: 0.1px 0.1px 0.1px 10px;
+    text-shadow: -2px 2px 0px var(--text-shadow-color);
+ font-size: 35px;
+ position: fixed;
+ margin-top: -60px;
 
 }

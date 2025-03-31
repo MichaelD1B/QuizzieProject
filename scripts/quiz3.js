@@ -40,25 +40,25 @@ function submitQuiz(quizName) {
     if (q1Answer && q1Answer.value === "b") {
         score++;
     }
-    if (q2Answer && q2Answer.value === "c") {
+    if (q2Answer && q2Answer.value === "d") {
         score++;
     }
-    if (q3Answer && q3Answer.value === "c") {
+    if (q3Answer && q3Answer.value === "b") {
         score++;
     }
-    if (q4Answer && q4Answer.value === "a") {
+    if (q4Answer && q4Answer.value === "b") {
         score++;
     }
-    if (q5Answer && q5Answer.value === "b") {
+    if (q5Answer && q5Answer.value === "c") {
         score++;
     }
-    if (q6Answer && q6Answer.value === "c") {
+    if (q6Answer && q6Answer.value === "b") {
         score++;
     }
     if (q7Answer && q7Answer.value === "b") {
         score++;
     }
-    if (q8Answer && q8Answer.value === "b") {
+    if (q8Answer && q8Answer.value === "c") {
         score++;
     }
     if (q9Answer && q9Answer.value === "c") {
