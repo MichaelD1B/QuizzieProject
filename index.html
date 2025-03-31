@@ -39,12 +39,11 @@
         <p>&copy; 2025 Quizzie</p>
     </footer>
     <script>
-        // Retrieve and display scores for all quizzes
+
         const quiz1Score = localStorage.getItem("quiz1Score");
         const quiz2Score = localStorage.getItem("quiz2Score");
         const quiz3Score = localStorage.getItem("quiz3Score");
 
-        // Display the scores if they exist
         if (quiz1Score !== null) {
             document.getElementById("quiz1-score").textContent = `Score: ${quiz1Score}/3`;
         }
